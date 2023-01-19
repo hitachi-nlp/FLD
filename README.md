@@ -12,3 +12,6 @@ The model used in the paper is a simple step-wise prover of [the previous study]
 However, since the codebase includes the code for the verifier, it is a little complex.
 Thus, we will re-implement the prover with minimum lines of code.
 Please wait for a moment.
+
+## Citation
+Wait for NLP(2023) proceedings to be opened.
