@@ -7,5 +7,5 @@ See [here](https://github.com/hitachi-nlp/FLD-corpus).
 ## Generating new corpora
 To be coming.
 
-## Learning a prover on FLD corpora
+## Train language models on FLD corpora
 To be coming.
