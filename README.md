@@ -14,4 +14,4 @@ Thus, we will re-implement the prover with minimum lines of code.
 Please wait for a moment.
 
 ## Citation
-Wait for NLP(2023) proceedings to be opened.
+Wait for [NLP2023](https://www.anlp.jp/nlp2023/) proceedings to be opened.
