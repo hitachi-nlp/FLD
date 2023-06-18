@@ -10,7 +10,7 @@ This is the entry-point repository for the FLD (**F**ormal **L**ogic **D**educti
 ## Train language models on FLD corpora
 The model used in the paper is a simple step-wise prover of [the previous study](https://github.com/princeton-nlp/NLProofS), which generates one proof step at once until the given hypothesis is (dis)proved.
 However, since the codebase includes the code for the verifier, it is a little complex.
-Thus, we will re-implement the prover with minimum lines of code.
+Thus, we will re-implement the prover with minimum lines of code, which will be released mid-July.
 Please wait for a moment.
 
 ## Citation
