@@ -1,17 +1,18 @@
 # FLD
-This is the entry-point repository for the FLD (**F**ormal **L**ogic **D**eduction) project, which aims to teach language models deductive reasoning by synthetic corpus based on formal logic theory.
+This is the entry-point repository for the paper [Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](TODO).
 
-## Using the released FLD corpora
-[Here](https://github.com/hitachi-nlp/FLD-corpus).
-
-## Generating new corpora
-[Here](https://github.com/hitachi-nlp/FLD-generator/).
-
-## Train language models on FLD corpora
-The model used in the paper is a simple step-wise prover of [the previous study](https://github.com/princeton-nlp/NLProofS), which generates one proof step at once until the given hypothesis is (dis)proved.
-However, since the codebase includes the code for the verifier, it is a little complex.
-Thus, we will re-implement the prover with minimum lines of code, which will be released mid-July.
-Please wait for a moment.
+## Contents
+* [Using the released FLD corpora](https://github.com/hitachi-nlp/FLD-corpus)
+* [Train a prover on the corpora](https://github.com/hitachi-nlp/FLD-prover/).
+* [Generating new corpora](https://github.com/hitachi-nlp/FLD-generator/).
 
 ## Citation
-Wait for [NLP2023](https://www.anlp.jp/nlp2023/) proceedings to be opened.
+```bibtex
+@inproceedings{morishita2023FLD,
+  title={Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic},
+  author={Morishita, Terufumi and Morio, Gaku and Yamaguchi, Atsuki and Sogawa, Yasuhiro},
+  booktitle={International Conference on Machine Learning},
+  year={2023},
+  organization={PMLR}
+}
+```
