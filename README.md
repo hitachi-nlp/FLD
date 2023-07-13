@@ -2,7 +2,7 @@
 This is the entry-point repository for the paper [Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](TODO).
 
 ## Contents
-* [Using the released FLD corpora](https://github.com/hitachi-nlp/FLD-corpus)
+* [Using the released FLD corpora](https://github.com/hitachi-nlp/FLD-corpus).
 * [Train a prover on the corpora](https://github.com/hitachi-nlp/FLD-prover/).
 * [Generating new corpora](https://github.com/hitachi-nlp/FLD-generator/).
 
