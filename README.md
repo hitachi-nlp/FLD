@@ -1,5 +1,5 @@
 # FLD
-This is the entry-point repository for the paper [Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](https://proceedings.mlr.press/v202/morishita23a.html).
+This is the entry-point repository of the paper [Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](https://proceedings.mlr.press/v202/morishita23a.html).
 
 ## Contents
 * [Using the released FLD corpora](https://github.com/hitachi-nlp/FLD-corpus).
