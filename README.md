@@ -1,10 +1,27 @@
-# FLD
-This is the entry-point repository of the paper [Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](https://proceedings.mlr.press/v202/morishita23a.html).
+# Formal Logic Deduction
+![framework_overview](./images/framework_overview.PNG)
+
+**F**ormal **L**ogic **D**eduction (**FLD**) is a project to teach language models deductive reasoning using synthetically generated examples based on formal logic theory.
+
+## What's good?
+FLD serves as ...
+
+* 🎓 **A foundation for learning logical reasoning**. FLD corpus teaches *fundamentals* of logic, as it adopts a well-grounded set of deduction rules based on formal logic theory.
+* 👊 **A challenging benchmark** of logical reasoning, as a fully fine-tuned T5 language model cannot solve *even half* of the problems from the most difficult variant of FLD corpora.
+* 🚀 **A basis for future experimental studies**, as it includes several toolkits as follows:
+    - the corpora easily used via [🤗 the huggingface hub](https://huggingface.co/datasets/hitachi-nlp/FLD.v2).
+    - [a simple training script](https://github.com/hitachi-nlp/FLD-prover/), which is a minimal adaptation of transformer's script.
+    - [a flexible corpus generator](https://github.com/hitachi-nlp/FLD-generator/), with which one can generate one's own corpus with desired settings.
+
+See [our paper](https://proceedings.mlr.press/v202/morishita23a.html) *Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic (ICML2023)* for details.
 
 ## Contents
 * [Using the released FLD corpora](https://github.com/hitachi-nlp/FLD-corpus).
 * [Train a prover on the corpora](https://github.com/hitachi-nlp/FLD-prover/).
 * [Generating new corpora](https://github.com/hitachi-nlp/FLD-generator/).
+
+## Contact
+For any reason where a GitHub pull request or an issue is not appropriate, feel free to email terufumi.morishita.wp[at]hitachi.com.
 
 ## Citation
 ```bibtex
