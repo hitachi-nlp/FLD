@@ -11,7 +11,7 @@ FLD serves as ...
 * 🚀 **A basis for future experimental studies**, as it includes several toolkits as follows:
     - the corpora easily used via [the huggingface hub](https://huggingface.co/datasets/hitachi-nlp/FLD.v2).
     - [a simple training script](https://github.com/hitachi-nlp/FLD-prover/), which is a minimal adaptation of transformer's script.
-    - [the flexible corpus generator](https://github.com/hitachi-nlp/FLD-generator/), with which one can generate one's own corpus with desired settings.
+    - [a flexible corpus generator](https://github.com/hitachi-nlp/FLD-generator/), with which one can generate one's own corpus with desired settings.
 
 See [our paper](https://proceedings.mlr.press/v202/morishita23a.html) *Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic (ICML2023)* for details.
 
