@@ -13,12 +13,12 @@ FLD serves as ...
     - [a simple training script](https://github.com/hitachi-nlp/FLD-prover/), which is a minimal adaptation of transformer's script.
     - [a flexible corpus generator](https://github.com/hitachi-nlp/FLD-generator/), with which one can generate one's own corpus with desired settings.
 
-See [our paper](https://proceedings.mlr.press/v202/morishita23a.html) *Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic (ICML2023)* for details.
+See [our paper](https://arxiv.org/abs/2308.07336) for details.
 
 ## Contents
 * [Using the released FLD corpora](https://github.com/hitachi-nlp/FLD-corpus).
-* [Train a prover on the corpora](https://github.com/hitachi-nlp/FLD-prover/).
-* [Generating new corpora](https://github.com/hitachi-nlp/FLD-generator/).
+* [Train a language model based prover on a FLD corpus](https://github.com/hitachi-nlp/FLD-prover/).
+* [Generating a new FLD corpus](https://github.com/hitachi-nlp/FLD-generator/).
 
 ## Contact
 For any reason where a GitHub pull request or an issue is not appropriate, feel free to email terufumi.morishita.wp[at]hitachi.com.
