@@ -2,6 +2,7 @@
 ![framework_overview](./images/framework_overview.PNG)
 
 **F**ormal **L**ogic **D**eduction (**FLD**) is a project to teach language models deductive reasoning using synthetically generated examples based on formal logic theory.
+FLD project originates from the paper [Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](https://proceedings.mlr.press/v202/morishita23a.html).
 
 ## What's good?
 FLD serves as ...
