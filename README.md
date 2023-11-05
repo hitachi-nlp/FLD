@@ -10,9 +10,9 @@ FLD serves as ...
 * 🎓 **A foundation for learning logical reasoning**. FLD corpus teaches *fundamentals* of logic, as it adopts a well-grounded set of deduction rules based on formal logic theory.
 * 👊 **A challenging benchmark** of logical reasoning, as a fully fine-tuned T5 language model cannot solve *even half* of the problems from the most difficult variant of FLD corpora.
 * 🚀 **A basis for future experimental studies**, as it includes several toolkits as follows:
-    - the corpora easily used via [🤗 the huggingface hub](https://huggingface.co/datasets/hitachi-nlp/FLD.v2).
-    - [a simple training script](https://github.com/hitachi-nlp/FLD-prover/), which is a minimal adaptation of huggingface's script.
-    - [a flexible corpus generator](https://github.com/hitachi-nlp/FLD-generator/), with which one can generate one's own corpus with a desired setting.
+    - One can use the corpora via [🤗 the huggingface hub](https://huggingface.co/datasets/hitachi-nlp/FLD.v2).
+    - One can fine-tune language models on the corpora using a logical-reasoning framework [LogiTorch/logitorch](https://github.com/LogiTorch/logitorch), or [a Transformers-based simple training script](https://github.com/hitachi-nlp/FLD-prover/).
+    - One can generate one's own corpus with a desired setting using [a flexible corpus generator](https://github.com/hitachi-nlp/FLD-generator/).
 
 See [our paper](https://proceedings.mlr.press/v202/morishita23a.html) for details.
 
