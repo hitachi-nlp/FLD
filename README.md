@@ -14,7 +14,7 @@ FLD serves as ...
     - One can fine-tune language models on the corpora using a logical-reasoning framework [LogiTorch/logitorch](https://github.com/LogiTorch/logitorch), or [a Transformers-based simple training script](https://github.com/hitachi-nlp/FLD-prover/).
     - One can generate one's own corpus with a desired setting using [a flexible corpus generator](https://github.com/hitachi-nlp/FLD-generator/).
 
-See [our paper](https://proceedings.mlr.press/v202/morishita23a.html) for details.
+See [our paper](https://arxiv.org/abs/2308.07336) for details.
 
 ## Contents
 * [Using the released FLD corpora](https://github.com/hitachi-nlp/FLD-corpus).
