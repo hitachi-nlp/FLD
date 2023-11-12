@@ -7,14 +7,14 @@ FLD project originates from the paper [Learning Deductive Reasoning from Synthet
 ## What's good?
 FLD serves as ...
 
-* 👊**A challenging benchmark** of logical reasoning, as it assesses pure logical reasoning *isolated from knowledge*. Indeed, even GPT-4 can solve only half of the problems.
+* 👊 **A challenging benchmark** of logical reasoning, as it assesses pure logical reasoning *isolated from knowledge*. Indeed, even GPT-4 can solve only half of the problems.
 * 🎓 **A foundation for learning logical reasoning**. FLD corpus teaches *fundamentals* of logic, as it adopts a well-grounded set of deduction rules based on formal logic theory.
-* 🚀 **A basis for future experimental studies**, as it includes several toolkits as [follows](#contents).
+* 🚀 **A basis for future experimental studies**, as it includes several toolkits alisted below.
 
 ## Contents
-* [You can use FLD corpora](https://github.com/hitachi-nlp/FLD-corpus) via [🤗 the huggingface hub](https://huggingface.co/datasets/hitachi-nlp/FLD.v2).
-* [You can evaluate various LLMs](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval), such as GPT-4 and Llama, in few-shot in-context learning settings.
-* You can fine-tune language models on the corpora. You can either use a logical-reasoning framework [LogiTorch/logitorch](https://github.com/LogiTorch/logitorch), or [[our Transformers-based script](https://github.com/hitachi-nlp/FLD-prover/).
+* You can [use FLD corpora](https://github.com/hitachi-nlp/FLD-corpus) via [🤗 huggingface hub](https://huggingface.co/datasets/hitachi-nlp/FLD.v2).
+* You can [evaluate various LLMs](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval), such as GPT-4 and Llama, in few-shot in-context learning settings.
+* You can fine-tune language models on FLD corpora. You can either use a logical-reasoning framework [LogiTorch/logitorch](https://github.com/LogiTorch/logitorch), or [our Transformers-based script](https://github.com/hitachi-nlp/FLD-prover/).
 * You can generate corpora with your own setting using [a corpus generator](https://github.com/hitachi-nlp/FLD-generator/).
 
 ## Contact
