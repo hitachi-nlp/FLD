@@ -9,7 +9,7 @@ FLD serves as ...
 
 * 👊 **A challenging benchmark** of logical reasoning, as it assesses pure logical reasoning *isolated from knowledge*. Indeed, even GPT-4 can solve only half of the problems.
 * 🎓 **A foundation for learning logical reasoning**. FLD corpus teaches *fundamentals* of logic, as it adopts a well-grounded set of deduction rules based on formal logic theory.
-* 🚀 **A basis for future experimental studies**, as it includes several toolkits alisted below.
+* 🚀 **A basis for future experimental studies**, as it includes several toolkits listed below.
 
 ## Contents
 * You can [use FLD corpora](https://github.com/hitachi-nlp/FLD-corpus) via [🤗 huggingface hub](https://huggingface.co/datasets/hitachi-nlp/FLD.v2).
