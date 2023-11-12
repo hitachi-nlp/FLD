@@ -1,25 +1,21 @@
 # Formal Logic Deduction
-![framework_overview](./images/framework_overview.PNG)
+![deduction example](./images/deduction_example_GPT4.png)
 
 **F**ormal **L**ogic **D**eduction (**FLD**) is a project to teach language models deductive reasoning using synthetically generated examples based on formal logic theory.
-FLD project originates from the paper [Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](https://proceedings.mlr.press/v202/morishita23a.html).
+FLD project originates from the paper [Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](https://arxiv.org/abs/2308.07336).
 
 ## What's good?
 FLD serves as ...
 
+* 👊**A challenging benchmark** of logical reasoning, as it assesses pure logical reasoning *isolated from knowledge*. Indeed, even GPT-4 can solve only half of the problems.
 * 🎓 **A foundation for learning logical reasoning**. FLD corpus teaches *fundamentals* of logic, as it adopts a well-grounded set of deduction rules based on formal logic theory.
-* 👊 **A challenging benchmark** of logical reasoning, as a fully fine-tuned T5 language model cannot solve *even half* of the problems from the most difficult variant of FLD corpora.
-* 🚀 **A basis for future experimental studies**, as it includes several toolkits as follows:
-    - One can use the corpora via [🤗 the huggingface hub](https://huggingface.co/datasets/hitachi-nlp/FLD.v2).
-    - One can fine-tune language models on the corpora using a logical-reasoning framework [LogiTorch/logitorch](https://github.com/LogiTorch/logitorch), or [a Transformers-based simple training script](https://github.com/hitachi-nlp/FLD-prover/).
-    - One can generate one's own corpus with a desired setting using [a flexible corpus generator](https://github.com/hitachi-nlp/FLD-generator/).
-
-See [our paper](https://arxiv.org/abs/2308.07336) for details.
+* 🚀 **A basis for future experimental studies**, as it includes several toolkits as [follows](#contents).
 
 ## Contents
-* [Using the released FLD corpora](https://github.com/hitachi-nlp/FLD-corpus).
-* [Train a language model based prover on a FLD corpus](https://github.com/hitachi-nlp/FLD-prover/).
-* [Generating a new FLD corpus](https://github.com/hitachi-nlp/FLD-generator/).
+* [You can use FLD corpora](https://github.com/hitachi-nlp/FLD-corpus) via [🤗 the huggingface hub](https://huggingface.co/datasets/hitachi-nlp/FLD.v2).
+* [You can evaluate various LLMs](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval), such as GPT-4 and Llama, in few-shot in-context learning settings.
+* You can fine-tune language models on the corpora. You can either use a logical-reasoning framework [LogiTorch/logitorch](https://github.com/LogiTorch/logitorch), or [[our Transformers-based script](https://github.com/hitachi-nlp/FLD-prover/).
+* You can generate corpora with your own setting using [a corpus generator](https://github.com/hitachi-nlp/FLD-generator/).
 
 ## Contact
 For any reason where a GitHub pull request or an issue is not appropriate, feel free to email terufumi.morishita.wp[at]hitachi.com.
