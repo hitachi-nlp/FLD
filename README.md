@@ -37,3 +37,20 @@ For any reason where a GitHub pull request or an issue is not appropriate, feel 
   url = 	 {https://proceedings.mlr.press/v202/morishita23a.html},
 }
 ```
+
+Japan's internal conferences:
+```bibtex
+@inproceedings{morishita2023NLP-FLD,
+  title={形式論理学に基づく演繹コーパスによる言語モデルに対する演繹推論能力の付与},
+  author={森下皓文 and 森尾学 and 山口篤季 and 十河泰弘},
+  booktitle={言語処理学会予稿集},
+  year={2023}
+}
+
+@inproceedings{morishita2023JSAI-FLD,
+  title={人工演繹推論コーパスによる学習は言語モデルをどのように強化するか?},
+  author={森下皓文 and 森尾学 and 山口篤季 and 十河泰弘},
+  booktitle={人工知能学会全国大会論文集},
+  year={2023}
+}
+```
