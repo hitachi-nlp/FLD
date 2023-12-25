@@ -7,15 +7,20 @@ FLD project originates from the paper [Learning Deductive Reasoning from Synthet
 ## What's good?
 FLD serves as ...
 
-* 👊 **A challenging benchmark** of logical reasoning, as it assesses pure logical reasoning *isolated from knowledge*. Indeed, even GPT-4 can solve only half of the problems.
-* 🎓 **A foundation for learning logical reasoning**. FLD corpus teaches *fundamentals* of logic, as it adopts a well-grounded set of deduction rules based on formal logic theory.
-* 🚀 **A basis for future experimental studies**, as it includes several toolkits listed below.
+* 👊 **A Challenging Benchmark for Logical Reasoning**: FLD assesses (i) pure reasoning *isolated from knowledge*, and (ii) diverse reasoning patterns. Indeed, even GPT-4 can solve only about half of the problems.
+* 🎓 **A Foundation for Learning Logical Reasoning**: The FLD corpus teaches the **fundamentals** of logic, adopting a well-grounded set of atomic deduction rules based on formal logic theory.
+* 🚀 **A Basis for Future Experimental Studies**: It encompasses several toolkits as listed below, paving the way for innovative research.
 
 ## Contents
-* You can [use FLD corpora](https://github.com/hitachi-nlp/FLD-corpus) via [🤗 huggingface hub](https://huggingface.co/datasets/hitachi-nlp/FLD.v2).
-* You can [evaluate various LLMs](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval), such as GPT-4 and Llama, in few-shot in-context learning settings.
-* You can fine-tune language models on FLD corpora. You can either use a logical-reasoning framework [LogiTorch/logitorch](https://github.com/LogiTorch/logitorch), or [our Transformers-based script](https://github.com/hitachi-nlp/FLD-prover/).
-* You can generate corpora with your own setting using [a corpus generator](https://github.com/hitachi-nlp/FLD-generator/).
+* You can use the corpora via [🤗 huggingface hub](https://huggingface.co/datasets/hitachi-nlp/FLD.v2). For the details of these corpora, such as the schema, see [here](https://github.com/hitachi-nlp/FLD-corpus).
+* You can evaluate various LLMs, such as GPT-4 and Llama, by using [lm-evlauation-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/fld) or [our evaluation scripts](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval).
+* You can fine-tune language models on FLD corpora. You can either use a logical-reasoning framework [LogiTorch/logitorch](https://github.com/LogiTorch/logitorch), or [our training scripts](https://github.com/hitachi-nlp/FLD-prover/).
+* You can generate corpora with your own setting using [our corpus generator](https://github.com/hitachi-nlp/FLD-generator/).
+
+## Other materials (Japanese only)
+* [人工知能学会2023: 人工演繹推論コーパスによる学習は言語モデルをどのように強化するか？](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2E5GS605/_pdf)
+* [言語処理学会2023: 形式論理学に基づく演繹コーパスによる言語モデルに対する演繹推論能力の付与](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/B1-2.pdf)
+* [日経ロボティクス2024/1月号: 言語モデルの論理推論能力を大きく改善、日立が学習用コーパスの自動生成技術](https://xtech.nikkei.com/atcl/nxt/mag/rob/18/012600001/00136)
 
 ## Contact
 For any reason where a GitHub pull request or an issue is not appropriate, feel free to email terufumi.morishita.wp[at]hitachi.com.
@@ -35,22 +40,5 @@ For any reason where a GitHub pull request or an issue is not appropriate, feel 
   publisher =    {PMLR},
   pdf = 	 {https://proceedings.mlr.press/v202/morishita23a/morishita23a.pdf},
   url = 	 {https://proceedings.mlr.press/v202/morishita23a.html},
-}
-```
-
-Japan's internal conferences:
-```bibtex
-@inproceedings{morishita2023NLP-FLD,
-  title={形式論理学に基づく演繹コーパスによる言語モデルに対する演繹推論能力の付与},
-  author={森下皓文 and 森尾学 and 山口篤季 and 十河泰弘},
-  booktitle={言語処理学会予稿集},
-  year={2023}
-}
-
-@inproceedings{morishita2023JSAI-FLD,
-  title={人工演繹推論コーパスによる学習は言語モデルをどのように強化するか?},
-  author={森下皓文 and 森尾学 and 山口篤季 and 十河泰弘},
-  booktitle={人工知能学会全国大会論文集},
-  year={2023}
 }
 ```
