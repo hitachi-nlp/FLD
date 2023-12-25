@@ -18,9 +18,9 @@ FLD serves as ...
 * You can generate corpora with your own setting using [our corpus generator](https://github.com/hitachi-nlp/FLD-generator/).
 
 ## Other materials (Japanese only)
+* [日経ロボティクス2024/1月号: 言語モデルの論理推論能力を大きく改善、日立が学習用コーパスの自動生成技術](https://xtech.nikkei.com/atcl/nxt/mag/rob/18/012600001/00136)
 * [人工知能学会2023: 人工演繹推論コーパスによる学習は言語モデルをどのように強化するか？](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2E5GS605/_pdf)
 * [言語処理学会2023: 形式論理学に基づく演繹コーパスによる言語モデルに対する演繹推論能力の付与](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/B1-2.pdf)
-* [日経ロボティクス2024/1月号: 言語モデルの論理推論能力を大きく改善、日立が学習用コーパスの自動生成技術](https://xtech.nikkei.com/atcl/nxt/mag/rob/18/012600001/00136)
 
 ## Contact
 For any reason where a GitHub pull request or an issue is not appropriate, feel free to email terufumi.morishita.wp[at]hitachi.com.
