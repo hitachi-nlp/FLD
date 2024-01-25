@@ -12,7 +12,7 @@ FLD serves as ...
 * 🚀 **A Basis for Future Experimental Studies**: It encompasses several toolkits as listed below, paving the way for innovative research.
 
 ## Contents
-* You can use the corpora via 🤗 huggingface hub. For the available corpora and the details of the schema, see [here](https://github.com/hitachi-nlp/FLD-corpus).
+* You can use the corpora via 🤗 huggingface hub. See [here](https://github.com/hitachi-nlp/FLD-corpus).
 * You can evaluate various LLMs, such as GPT-4 and Llama, by using [lm-evlauation-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/fld) or [our evaluation scripts](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval).
 * You can fine-tune language models on FLD corpora. You can either use a logical-reasoning framework [LogiTorch/logitorch](https://github.com/LogiTorch/logitorch), or [our training scripts](https://github.com/hitachi-nlp/FLD-prover/).
 * You can generate corpora with your own setting using [our corpus generator](https://github.com/hitachi-nlp/FLD-generator/).
