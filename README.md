@@ -6,7 +6,7 @@ FLD project originates from the paper [Learning Deductive Reasoning from Synthet
 
 ## [!] News
 **We released a Japanese logical benchmark JFLD**.
-**Please [watch out!!!](https://github.com/hitachi-nlp/FLD-corpus/blob/main/README.JFLD.md).**
+**Please [check this out!!](https://github.com/hitachi-nlp/FLD-corpus/blob/main/README.JFLD.md).**
 
 ## What's good?
 FLD serves as ...
