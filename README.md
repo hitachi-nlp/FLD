@@ -5,8 +5,8 @@
 FLD project originates from the paper [Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](https://arxiv.org/abs/2308.07336) (ICML2023).
 
 ## [!] News
-We released a Japanese logical benchmark **JFLD**.
-Please [watch out!!!](https://github.com/hitachi-nlp/FLD-corpus/blob/main/README.JFLD.md).
+**We released a Japanese logical benchmark JFLD**.
+**Please [watch out!!!](https://github.com/hitachi-nlp/FLD-corpus/blob/main/README.JFLD.md).**
 
 ## What's good?
 FLD serves as ...
