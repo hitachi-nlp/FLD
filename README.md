@@ -31,18 +31,17 @@ For any reason where a GitHub pull request or an issue is not appropriate, feel 
 
 ## Citation
 ```bibtex
-@InProceedings{pmlr-v202-morishita23a,
-  title = 	 {Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic},
-  author =       {Morishita, Terufumi and Morio, Gaku and Yamaguchi, Atsuki and Sogawa, Yasuhiro},
-  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
-  pages = 	 {25254--25274},
-  year = 	 {2023},
-  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
-  volume = 	 {202},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {23--29 Jul},
-  publisher =    {PMLR},
-  pdf = 	 {https://proceedings.mlr.press/v202/morishita23a/morishita23a.pdf},
-  url = 	 {https://proceedings.mlr.press/v202/morishita23a.html},
+@inproceedings{morishita2023fld,
+  title = {Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic},
+  author = {Morishita, Terufumi and Morio, Gaku and Yamaguchi, Atsuki and Sogawa, Yasuhiro},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+  year = {2023}
+}
+
+@inproceedings{morishita2024jfld,
+  title = {JFLD: A Japanese Benchmark for Deductive Reasoning based on Formal Logic},
+  author = {Morishita, Terufumi and Yamaguchi, Atsuki and Morio, Gaku and Hikaru, Tomonari and Osamu Imaichi and Sogawa, Yasuhiro},
+  booktitle = {Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation},
+  year = {2024}
 }
 ```
