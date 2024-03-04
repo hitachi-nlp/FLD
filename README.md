@@ -32,17 +32,17 @@ For any reason where a GitHub pull request or an issue is not appropriate, feel 
 
 ## Citation
 ```bibtex
-@inproceedings{morishita2023fld,
-  title = {Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic},
-  author = {Morishita, Terufumi and Morio, Gaku and Yamaguchi, Atsuki and Sogawa, Yasuhiro},
-  booktitle = {Proceedings of the 40th International Conference on Machine Learning},
-  year = {2023}
-}
-
 @inproceedings{morishita2024jfld,
   title = {JFLD: A Japanese Benchmark for Deductive Reasoning based on Formal Logic},
   author = {Morishita, Terufumi and Yamaguchi, Atsuki and Morio, Gaku and Hikaru, Tomonari and Osamu Imaichi and Sogawa, Yasuhiro},
   booktitle = {Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation},
   year = {2024}
+}
+
+@inproceedings{morishita2023fld,
+  title = {Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic},
+  author = {Morishita, Terufumi and Morio, Gaku and Yamaguchi, Atsuki and Sogawa, Yasuhiro},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+  year = {2023}
 }
 ```
