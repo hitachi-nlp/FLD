@@ -22,6 +22,7 @@ FLD serves as ...
 * You can generate corpora with your own setting using [our corpus generator](https://github.com/hitachi-nlp/FLD-generator/).
 
 ## Other materials (Japanese only)
+* [言語処理学会2024: 日本語論理推論ベンチマークJFLDの提案](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A4-1.pdf)
 * [日経ロボティクス2024/1月号: 言語モデルの論理推論能力を大きく改善、日立が学習用コーパスの自動生成技術](https://xtech.nikkei.com/atcl/nxt/mag/rob/18/012600001/00136)
 * [人工知能学会2023: 人工演繹推論コーパスによる学習は言語モデルをどのように強化するか？](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2E5GS605/_pdf)
 * [言語処理学会2023: 形式論理学に基づく演繹コーパスによる言語モデルに対する演繹推論能力の付与](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/B1-2.pdf)
@@ -31,18 +32,17 @@ For any reason where a GitHub pull request or an issue is not appropriate, feel 
 
 ## Citation
 ```bibtex
-@InProceedings{pmlr-v202-morishita23a,
-  title = 	 {Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic},
-  author =       {Morishita, Terufumi and Morio, Gaku and Yamaguchi, Atsuki and Sogawa, Yasuhiro},
-  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
-  pages = 	 {25254--25274},
-  year = 	 {2023},
-  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
-  volume = 	 {202},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {23--29 Jul},
-  publisher =    {PMLR},
-  pdf = 	 {https://proceedings.mlr.press/v202/morishita23a/morishita23a.pdf},
-  url = 	 {https://proceedings.mlr.press/v202/morishita23a.html},
+@inproceedings{morishita2023fld,
+  title = {Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic},
+  author = {Morishita, Terufumi and Morio, Gaku and Yamaguchi, Atsuki and Sogawa, Yasuhiro},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+  year = {2023}
+}
+
+@inproceedings{morishita2024jfld,
+  title = {JFLD: A Japanese Benchmark for Deductive Reasoning based on Formal Logic},
+  author = {Morishita, Terufumi and Yamaguchi, Atsuki and Morio, Gaku and Hikaru, Tomonari and Osamu Imaichi and Sogawa, Yasuhiro},
+  booktitle = {Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation},
+  year = {2024}
 }
 ```
