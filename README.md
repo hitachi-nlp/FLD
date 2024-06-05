@@ -23,14 +23,14 @@ FLD serves as ...
 
 ## Publications
 * 海外
-    * [LREC-COLING(2024): JFLD: A Japanese Benchmark for Deductive Reasoning Based on Formal Logic](https://aclanthology.org/2024.lrec-main.832/)
-    * [ICML(2023): Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](https://arxiv.org/abs/2308.07336)
+    * [LREC-COLING (2024): JFLD: A Japanese Benchmark for Deductive Reasoning Based on Formal Logic](https://aclanthology.org/2024.lrec-main.832/)
+    * [ICML (2023): Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](https://arxiv.org/abs/2308.07336)
 * 国内
-    * [人工知能学会(2024): 帰納的に多様な巨大論理推論コーパスによりLLMの汎用論理推論能力を向上させる](https://confit.atlas.jp/guide/event-img/jsai2024/3Xin2-64/public/pdf?type=in)
-    * [言語処理学会(2024): 日本語論理推論ベンチマークJFLDの提案](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A4-1.pdf)
-    * [日経ロボティクス(2024/01): 言語モデルの論理推論能力を大きく改善、日立が学習用コーパスの自動生成技術](https://xtech.nikkei.com/atcl/nxt/mag/rob/18/012600001/00136)
-    * [人工知能学会(2023): 人工演繹推論コーパスによる学習は言語モデルをどのように強化するか？](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2E5GS605/_pdf)
-    * [言語処理学会(2023): 形式論理学に基づく演繹コーパスによる言語モデルに対する演繹推論能力の付与](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/B1-2.pdf)
+    * [人工知能学会 (2024): 帰納的に多様な巨大論理推論コーパスによりLLMの汎用論理推論能力を向上させる](https://confit.atlas.jp/guide/event-img/jsai2024/3Xin2-64/public/pdf?type=in)
+    * [言語処理学会 (2024): 日本語論理推論ベンチマークJFLDの提案](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A4-1.pdf)
+    * [日経ロボティクス (2024/01): 言語モデルの論理推論能力を大きく改善、日立が学習用コーパスの自動生成技術](https://xtech.nikkei.com/atcl/nxt/mag/rob/18/012600001/00136)
+    * [人工知能学会 (2023): 人工演繹推論コーパスによる学習は言語モデルをどのように強化するか？](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2E5GS605/_pdf)
+    * [言語処理学会 (2023): 形式論理学に基づく演繹コーパスによる言語モデルに対する演繹推論能力の付与](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/B1-2.pdf)
 
 ## Contact
 For any reason where a GitHub pull request or an issue is not appropriate, feel free to email terufumi.morishita.wp[at]hitachi.com.
