@@ -1,10 +1,11 @@
 # Formal Logic Deduction
 ![deduction example](./images/deduction_example_GPT4.png)
 
-**F**ormal **L**ogic **D**eduction (**FLD**) is a project to teach language models deductive reasoning using synthetically generated examples based on formal logic theory.
+**F**ormal **L**ogic **D**eduction (**FLD**) is a project to teach language models deductive reasoning using synthetically generated examples based on formal logic theory.  
+
+[!]**We are working hard for the release on NeurIPS 2024 paper, "Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus" (TBD).**
 
 ## [!] News
-* **We are working hard for the release on NeurIPS 2024 paper, "Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus" (TBD).**
 * **We released a Japanese logical benchmark [JFLD](https://github.com/hitachi-nlp/FLD-corpus/blob/main/README.JFLD.md).**
 
 ## What's good?
