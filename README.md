@@ -2,11 +2,10 @@
 ![deduction example](./images/deduction_example_GPT4.png)
 
 **F**ormal **L**ogic **D**eduction (**FLD**) is a project to teach language models deductive reasoning using synthetically generated examples based on formal logic theory.
-FLD project originates from the paper [Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic](https://arxiv.org/abs/2308.07336) (ICML2023).
 
 ## [!] News
-**We released a Japanese logical benchmark JFLD**.
-**Please [check this out!!](https://github.com/hitachi-nlp/FLD-corpus/blob/main/README.JFLD.md).**
+* **We are working hard for the release on NeurIPS 2024 paper, "Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus" (TBD).**
+* **We released a Japanese logical benchmark [JFLD](https://github.com/hitachi-nlp/FLD-corpus/blob/main/README.JFLD.md).**
 
 ## What's good?
 FLD serves as ...
@@ -24,6 +23,7 @@ FLD serves as ...
 ## Publications
 
 ### 海外
+* "Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus", NeurIPS, 2024 (TBD)
 * ["JFLD: A Japanese Benchmark for Deductive Reasoning Based on Formal Logic", LREC-COLING, 2024](https://aclanthology.org/2024.lrec-main.832/)
 * ["Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic", ICML, 2023](https://arxiv.org/abs/2308.07336)
 
@@ -39,6 +39,13 @@ For any reason where a GitHub pull request or an issue is not appropriate, feel 
 
 ## Citation
 ```bibtex
+@inproceedings{morishita_2024_NeurIPS_FLD_diverse,
+  title={Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus}, 
+  author={Terufumi Morishita and Gaku Morio and Atsuki Yamaguchi and Yasuhiro Sogawa},
+  booktitle={Annual Conference on Neural Information Processing Systems},
+  year={2024}
+}
+
 @inproceedings{morishita2024jfld,
   title = {JFLD: A Japanese Benchmark for Deductive Reasoning based on Formal Logic},
   author = {Morishita, Terufumi and Yamaguchi, Atsuki and Morio, Gaku and Hikaru, Tomonari and Osamu Imaichi and Sogawa, Yasuhiro},
