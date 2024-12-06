@@ -20,12 +20,10 @@
 ## Contents
 * Released Resources
     * FLD corpora are detailed [here](https://github.com/hitachi-nlp/FLD-corpus).
-    * LLMs trained on FLDx2, [LLaMA-3.1-8B](https://huggingface.co/hitachi-nlp/Llama-3.1-8B-FLDx2) and [LLaMA-3.1-70B](https://huggingface.co/hitachi-nlp/Llama-3.1-70B-FLDx2) (only for a single seed out of five used in the paper).
+    * LLMs trained on FLDx2: [LLaMA-3.1-8B](https://huggingface.co/hitachi-nlp/Llama-3.1-8B-FLDx2) and [LLaMA-3.1-70B](https://huggingface.co/hitachi-nlp/Llama-3.1-70B-FLDx2) (only for a single seed).
 * Training LLMs on FLD corpora by [our scripts](https://github.com/hitachi-nlp/FLD-prover/).
 * Evaluation:
-    * Evaluating the LLMs on reasoning-related benchmarks, as done in our paper:
-        * [A fork of lm-evlauation-harness](https://github.com/hitachi-nlp/lm-evaluation-harness), which adds various benchmarks.
-        * [A fork of bigcode-evaluation-harness](https://github.com/hitachi-nlp/bigcode-evaluation-harness), which enables faster inference with vllm.
+    * Evaluating the LLMs on reasoning-related benchmarks, as done in our paper, by using [our fork of lm-evaluation-harness](https://github.com/hitachi-nlp/lm-evaluation-harness) and [our fork of bigcode-evaluation-harness](https://github.com/hitachi-nlp/bigcode-evaluation-harness).
     * Evaluating LLMs on FLD itself using [the official lm-evlauation-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/fld) (recommended), or [our evaluation scripts](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval).
 * Generating FLD corpora by [our generator](https://github.com/hitachi-nlp/FLD-generator/).
 
