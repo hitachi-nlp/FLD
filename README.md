@@ -4,17 +4,18 @@
 **F**ormal **L**ogic **D**eduction (**FLD**) is a project to enhance LLMs' reasoning capabilities via synthetically generated samples of logical reasoning, the most fundamental form of reasoning.
 
 ## Latest Updates
-📄 **Our paper at NeurIPS 2024, [Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus](https://arxiv.org/abs/2411.12498).**  
-🛢️ **Introducing FLDx2 (Formal Logic Deduction Diverse): Our most advanced corpus that significantly improves LLMs' reasoning capabilities.**
+🎉 **Published a new paper at NeurIPS 2024, [Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus](https://arxiv.org/abs/2411.12498).**  
+
+💎 **Released FLDx2 (Formal Logic Deduction Diverse), Our most advanced corpus that significantly improves LLMs' reasoning capabilities.**
 
 ## Key Features
 
-🚀 Demonstrates **substantial enhancement in LLM reasoning capabilities**, particularly with LLaMA-3.1-70B
+🚀 Demonstrates **substantial enhancement in LLM reasoning capabilities**.
 ![barplot](./images/barplot.PNG)
 
-🎓 Built on well-grounded design principles, which integrate symbolic logic theory and previous empirical insights, resulting in diverse samples covering (i) multi-step deduction with unknown facts, (ii) diverse reasoning rules, (iii) diverse linguistic expressions, and (iv) challenging distractors.
+🎓 Built on **well-grounded design principles**, which integrate symbolic logic theory and previous empirical insights, resulting in diverse samples covering (i) multi-step deduction with unknown facts, (ii) diverse reasoning rules, (iii) diverse linguistic expressions, and (iv) challenging distractors.
 
-👊 Serves as a challengin benchmark asessing pure reasoning capabilities isolated from knowledge. Even GPT-4 can solve only about half of the problems.
+👊 Serves as a challenging benchmark asessing pure reasoning capabilities isolated from knowledge. Even GPT-4 can solve only about half of the problems.
 
 ## Contents
 * The released corpora are described [here](https://github.com/hitachi-nlp/FLD-corpus).
