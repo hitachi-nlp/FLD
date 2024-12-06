@@ -3,14 +3,14 @@
 
 **F**ormal **L**ogic **D**eduction (**FLD**) is a project to enhance LLMs' reasoning capabilities via synthetically generated samples of logical reasoning, the most fundamental form of reasoning.
 
-## Latest Updates
-🎉 **Published a new paper at NeurIPS 2024, [Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus](https://arxiv.org/abs/2411.12498).**  
+## [!] Latest Updates
+🎉 **A new paper at NeurIPS 2024, [Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus](https://arxiv.org/abs/2411.12498).**  
 
-💎 **Released FLDx2 (Formal Logic Deduction Diverse), Our most advanced corpus that significantly improves LLMs' reasoning capabilities.**
+💎 **Released FLDx2 (Formal Logic Deduction Diverse), our most advanced corpus that significantly improves LLMs' reasoning capabilities.**
 
 ## Key Features
 
-🚀 Demonstrates **substantial enhancement in LLM reasoning capabilities**.
+🚀 Demonstrates **substantial enhancement in LLM reasoning capabilities**:
 ![barplot](./images/barplot.PNG)
 
 🎓 Built on **well-grounded design principles**, which integrate symbolic logic theory and previous empirical insights, resulting in diverse samples covering (i) multi-step deduction with unknown facts, (ii) diverse reasoning rules, (iii) diverse linguistic expressions, and (iv) challenging distractors.
