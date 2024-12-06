@@ -3,29 +3,32 @@
 
 **F**ormal **L**ogic **D**eduction (**FLD**) is a project to enhance LLMs' reasoning capabilities via synthetically generated samples of logical reasoning, the most fundamental form of reasoning.
 
-## **New**
-* **We published a new paper at NeurIPS 2024, [Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus](https://arxiv.org/abs/2411.12498).**
-* **Accordingly, we released [FLDx2 (Formal Logic Deduction Diverse)](https://huggingface.co/datasets/hitachi-nlp/FLDx2), our newest and the most advanced corpus, which substantially the reasoning capabilities of LLMs.**
+## Latest Updates
+📄 **Our paper at NeurIPS 2024, [Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus](https://arxiv.org/abs/2411.12498).**  
+🛢️ **Introducing FLDx2 (Formal Logic Deduction Diverse): Our most advanced corpus that significantly improves LLMs' reasoning capabilities.**
 
-## What's Good?
-* 🚀 FLD samples **substantially enhances the reasoning capabilities of state-of-the-art LLMs**, such as LLaMA-3.1-70B; e.g., gains of up to 30 points on logical reasoning benchmarks, up to 10 points on math and coding benchmarks, and 5 points on the benchmark suite BBH.
-  - ![barplot](./images/barplot.PNG)
-* 🎓 FLD samples are high in quality being generated based on **well-grounded design principles**, which integrate symbolic logic theory and previous empirical insights. The samples cover multi-step deduction with unknown facts, diverse reasoning rules, diverse linguistic expressions, and challenging distractors.
-* 👊 FLD, used as a benchmark, assesses pure reasoning isolated from knowledge. Indeed, even GPT-4 can solve only about half of the problems.
+## Key Features
+
+🚀 Demonstrates **substantial enhancement in LLM reasoning capabilities**, particularly with LLaMA-3.1-70B
+![barplot](./images/barplot.PNG)
+
+🎓 Built on well-grounded design principles, which integrate symbolic logic theory and previous empirical insights, resulting in diverse samples covering (i) multi-step deduction with unknown facts, (ii) diverse reasoning rules, (iii) diverse linguistic expressions, and (iv) challenging distractors.
+
+👊 Serves as a challengin benchmark asessing pure reasoning capabilities isolated from knowledge. Even GPT-4 can solve only about half of the problems.
 
 ## Contents
-* [The released corpora](https://github.com/hitachi-nlp/FLD-corpus).
+* The released corpora are described [here](https://github.com/hitachi-nlp/FLD-corpus).
 * LLMs trained on FLDx2 (only for a single seed out of five used in the paper):
     * [LLaMA-3.1-8B](https://huggingface.co/hitachi-nlp/Llama-3.1-8B-FLDx2).
     * [LLaMA-3.1-70B](https://huggingface.co/hitachi-nlp/Llama-3.1-70B-FLDx2).
-* [Training LLMs on FLD corpora](https://github.com/hitachi-nlp/FLD-prover/).
+* Training LLMs on FLD corpora by [our scripts](https://github.com/hitachi-nlp/FLD-prover/).
 * Evaluating trained LLMs on reasoning-related benchmarks, as done in our paper:
-    * [A folk of lm-evlauation-harness](https://github.com/hitachi-nlp/lm-evaluation-harness) used in our paper, which adds various benchmarks.
-    * [A folk of bigcode-evaluation-harness](https://github.com/hitachi-nlp/bigcode-evaluation-harness) used in our, which enables faster inference with vllm.
+    * [A folk of lm-evlauation-harness](https://github.com/hitachi-nlp/lm-evaluation-harness), which adds various benchmarks.
+    * [A folk of bigcode-evaluation-harness](https://github.com/hitachi-nlp/bigcode-evaluation-harness), which enables faster inference with vllm.
 * Evaluating LLMs on FLD itself:
     * [The official lm-evlauation-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/fld).
-    * [Our evaluation scripts](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval).
-* [Generating FLD corpora](https://github.com/hitachi-nlp/FLD-generator/).
+    * (deprecated) [Our evaluation scripts](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval).
+* Generating FLD corpora by [our generator](https://github.com/hitachi-nlp/FLD-generator/).
 
 ## Publications
 
