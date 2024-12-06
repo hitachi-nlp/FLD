@@ -6,14 +6,14 @@
 ## [!] Latest Updates
 🎉 **A new paper at NeurIPS 2024, [Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus](https://arxiv.org/abs/2411.12498).**  
 
-💎 **Released FLDx2 (Formal Logic Deduction Diverse), our most advanced corpus that significantly improves LLMs' reasoning capabilities.**
+💎 **Released [FLDx2 (Formal Logic Deduction Diverse)](https://huggingface.co/datasets/hitachi-nlp/FLDx2), our most advanced corpus that substantially improves reasoning capabilities of state-of-the-art LLMs**
+![barplot](./images/barplot.PNG)
 
 ## Key Features
 
-🚀 Demonstrates **substantial enhancement in LLM reasoning capabilities**:
-![barplot](./images/barplot.PNG)
-
 🎓 Built on **well-grounded design principles**, which integrate symbolic logic theory and previous empirical insights, resulting in diverse samples covering (i) multi-step deduction with unknown facts, (ii) diverse reasoning rules, (iii) diverse linguistic expressions, and (iv) challenging distractors.
+
+🚀 Demonstrates substantial enhancement in LLM reasoning capabilities.
 
 👊 Serves as a challenging benchmark asessing pure reasoning capabilities isolated from knowledge. Even GPT-4 can solve only about half of the problems.
 
@@ -49,6 +49,7 @@
 For any reason where a GitHub pull request or an issue is not appropriate, feel free to email terufumi.morishita.wp[at]hitachi.com.
 
 ## Citation
+If you liked our project, please consider citing the following papers:
 ```bibtex
 @inproceedings{morishita_2024_NeurIPS_FLD_diverse,
   title={Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus}, 
