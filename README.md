@@ -1,31 +1,36 @@
 # Formal Logic Deduction
-![deduction example](./images/deduction_example_GPT4.png)
+![ALT_overview](./images/ALT_overview.PNG)
 
-**F**ormal **L**ogic **D**eduction (**FLD**) is a project to teach language models deductive reasoning using synthetically generated examples based on formal logic theory.  
+**F**ormal **L**ogic **D**eduction (**FLD**) is a project to enhance LLMs' reasoning capabilities via synthetically generated samples of logical reasoning, the most fundamental form of reasoning.
 
-$\color{red}{(2024/11/21)}$ We are working on the resource release for our NeurIPS 2024 paper, "Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus."
-The resources will be made available before the conference, i.e., by early December.
-
-## [!] News
-* **We released a Japanese logical benchmark [JFLD](https://github.com/hitachi-nlp/FLD-corpus/blob/main/README.JFLD.md).**
+## **New**
+* **We published a new paper at NeurIPS 2024, [Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus](https://arxiv.org/abs/2411.12498).**
+* **Accordingly, we released [FLDx2 (Formal Logic Deduction Diverse)](https://huggingface.co/datasets/hitachi-nlp/FLDx2), our newest and the most advanced corpus, which substantially the reasoning capabilities of LLMs.**
 
 ## What's Good?
-FLD serves as ...
-
-* 👊 **A Challenging Benchmark for Logical Reasoning**: FLD assesses (i) pure reasoning *isolated from knowledge*, and (ii) diverse reasoning patterns. Indeed, even GPT-4 can solve only about half of the problems.
-* 🎓 **A Foundation for Learning Logical Reasoning**: The FLD corpus teaches the **fundamentals** of logic, adopting a well-grounded set of atomic deduction rules based on formal logic theory.
-* 🚀 **A Basis for Future Experimental Studies**: It encompasses several toolkits as listed below, paving the way for innovative research.
+* 🚀 FLD samples **substantially enhances the reasoning capabilities of state-of-the-art LLMs**, such as LLaMA-3.1-70B; e.g., gains of up to 30 points on logical reasoning benchmarks, up to 10 points on math and coding benchmarks, and 5 points on the benchmark suite BBH.
+  - ![barplot](./images/barplot.PNG.PNG)
+* 🎓 FLD samples are high in quality being generated based on **well-grounded design principles**, which integrate symbolic logic theory and previous empirical insights. The samples cover multi-step deduction with unknown facts, diverse reasoning rules, diverse linguistic expressions, and challenging distractors.
+* 👊 FLD, used as a benchmark, assesses pure reasoning isolated from knowledge. Indeed, even GPT-4 can solve only about half of the problems.
 
 ## Contents
-* You can use the corpora via 🤗 huggingface hub. See [here](https://github.com/hitachi-nlp/FLD-corpus).
-* You can evaluate various LLMs, such as GPT-4 and Llama, by using [lm-evlauation-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/fld) or [our evaluation scripts](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval).
-* You can fine-tune language models on FLD corpora. You can either use a logical-reasoning framework [LogiTorch/logitorch](https://github.com/LogiTorch/logitorch), or [our training scripts](https://github.com/hitachi-nlp/FLD-prover/).
-* You can generate corpora with your own setting using [our corpus generator](https://github.com/hitachi-nlp/FLD-generator/).
+* [The released corpora](https://github.com/hitachi-nlp/FLD-corpus).
+* LLMs trained on FLDx2 (only for a single seed out of five used in the paper):
+    * [LLaMA-3.1-8B](https://huggingface.co/hitachi-nlp/Llama-3.1-8B-FLDx2).
+    * [LLaMA-3.1-70B](https://huggingface.co/hitachi-nlp/Llama-3.1-70B-FLDx2).
+* [Training LLMs on FLD corpora](https://github.com/hitachi-nlp/FLD-prover/).
+* Evaluating trained LLMs on reasoning-related benchmarks, as done in our paper:
+    * [A folk of lm-evlauation-harness](https://github.com/hitachi-nlp/lm-evaluation-harness) used in our paper, which adds various benchmarks.
+    * [A folk of bigcode-evaluation-harness](https://github.com/hitachi-nlp/bigcode-evaluation-harness) used in our, which enables faster inference with vllm.
+* Evaluating LLMs on FLD itself:
+    * [The official lm-evlauation-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/fld).
+    * [Our evaluation scripts](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval).
+* [Generating FLD corpora](https://github.com/hitachi-nlp/FLD-generator/).
 
 ## Publications
 
 ### International Coneferences
-* "Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus", NeurIPS, 2024 (TBD)
+* ["Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus", NeurIPS, 2024](https://arxiv.org/abs/2411.12498)
 * ["JFLD: A Japanese Benchmark for Deductive Reasoning Based on Formal Logic", LREC-COLING, 2024](https://aclanthology.org/2024.lrec-main.832/)
 * ["Learning Deductive Reasoning from Synthetic Corpus based on Formal Logic", ICML, 2023](https://arxiv.org/abs/2308.07336)
 
