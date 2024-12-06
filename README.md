@@ -9,7 +9,7 @@ The resources will be made available before the conference, i.e., by early Decem
 ## [!] News
 * **We released a Japanese logical benchmark [JFLD](https://github.com/hitachi-nlp/FLD-corpus/blob/main/README.JFLD.md).**
 
-## What's good?
+## What's Good?
 FLD serves as ...
 
 * 👊 **A Challenging Benchmark for Logical Reasoning**: FLD assesses (i) pure reasoning *isolated from knowledge*, and (ii) diverse reasoning patterns. Indeed, even GPT-4 can solve only about half of the problems.
