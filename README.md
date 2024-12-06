@@ -4,9 +4,9 @@
 **F**ormal **L**ogic **D**eduction (**FLD**) is a project to enhance LLMs' reasoning capabilities via synthetically generated samples of logical reasoning, the most fundamental form of reasoning.
 
 ## [!] Latest Updates
-🎉 **A new paper at NeurIPS 2024, [Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus](https://arxiv.org/abs/2411.12498).**  
+🎉 **A new paper at NeurIPS 2024: [Enhancing Reasoning Capabilities of LLMs via Principled Synthetic Logic Corpus](https://arxiv.org/abs/2411.12498).**  
 
-💎 **Released [FLDx2 (Formal Logic Deduction Diverse)](https://huggingface.co/datasets/hitachi-nlp/FLDx2), our most advanced corpus that substantially improves reasoning capabilities of state-of-the-art LLMs**
+💎 **[FLDx2 (Formal Logic Deduction Diverse)](https://huggingface.co/datasets/hitachi-nlp/FLDx2), our most advanced corpus that substantially improves reasoning capabilities of state-of-the-art LLMs:**
 ![barplot](./images/barplot.PNG)
 
 ## Key Features
@@ -18,12 +18,12 @@
 👊 Serves as a challenging benchmark asessing pure reasoning capabilities isolated from knowledge. Even GPT-4 can solve only about half of the problems.
 
 ## Contents
-* Released Resources
+* Resources:
     * FLD corpora are detailed [here](https://github.com/hitachi-nlp/FLD-corpus).
     * LLMs trained on FLDx2: [LLaMA-3.1-8B](https://huggingface.co/hitachi-nlp/Llama-3.1-8B-FLDx2) and [LLaMA-3.1-70B](https://huggingface.co/hitachi-nlp/Llama-3.1-70B-FLDx2) (only for a single seed).
-* Training LLMs on FLD corpora by [our scripts](https://github.com/hitachi-nlp/FLD-prover/).
+* Train LLMs on FLD corpora by [our scripts](https://github.com/hitachi-nlp/FLD-prover/).
 * Evaluation:
-    * Evaluating the LLMs on reasoning-related benchmarks, as done in our paper, by using [our fork of lm-evaluation-harness](https://github.com/hitachi-nlp/lm-evaluation-harness) and [our fork of bigcode-evaluation-harness](https://github.com/hitachi-nlp/bigcode-evaluation-harness).
+    * Evaluating LLMs on reasoning-related benchmarks, as done in our paper, by using [our fork of lm-evaluation-harness](https://github.com/hitachi-nlp/lm-evaluation-harness) and [our fork of bigcode-evaluation-harness](https://github.com/hitachi-nlp/bigcode-evaluation-harness).
     * Evaluating LLMs on FLD itself using [the official lm-evlauation-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/fld) (recommended), or [our evaluation scripts](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval).
 * Generating FLD corpora by [our generator](https://github.com/hitachi-nlp/FLD-generator/).
 
