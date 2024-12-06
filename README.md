@@ -18,29 +18,16 @@
 👊 Serves as a challenging benchmark asessing pure reasoning capabilities isolated from knowledge. Even GPT-4 can solve only about half of the problems.
 
 ## Contents
-
-### Released Resources
-* FLD corpora are detailed [here](https://github.com/hitachi-nlp/FLD-corpus).
-* LLMs trained on FLDx2 (only for a single seed out of five used in the paper):
-    * [LLaMA-3.1-8B](https://huggingface.co/hitachi-nlp/Llama-3.1-8B-FLDx2).
-    * [LLaMA-3.1-70B](https://huggingface.co/hitachi-nlp/Llama-3.1-70B-FLDx2).
-
-### Training
+* Released Resources
+    * FLD corpora are detailed [here](https://github.com/hitachi-nlp/FLD-corpus).
+    * LLMs trained on FLDx2, [LLaMA-3.1-8B](https://huggingface.co/hitachi-nlp/Llama-3.1-8B-FLDx2) and [LLaMA-3.1-70B](https://huggingface.co/hitachi-nlp/Llama-3.1-70B-FLDx2) (only for a single seed out of five used in the paper).
 * Training LLMs on FLD corpora by [our scripts](https://github.com/hitachi-nlp/FLD-prover/).
-
-### Evaluation
-* Evaluating the LLMs on reasoning-related benchmarks, as done in our paper:
-    * [A fork of lm-evlauation-harness](https://github.com/hitachi-nlp/lm-evaluation-harness), which adds various benchmarks.
-    * [A fork of bigcode-evaluation-harness](https://github.com/hitachi-nlp/bigcode-evaluation-harness), which enables faster inference with vllm.
-* Evaluating LLMs on FLD itself:
-    * (recommended) [The official lm-evlauation-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/fld).
-    * [Our evaluation scripts](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval).
-
-### Corpus Generation
+* Evaluation:
+    * Evaluating the LLMs on reasoning-related benchmarks, as done in our paper:
+        * [A fork of lm-evlauation-harness](https://github.com/hitachi-nlp/lm-evaluation-harness), which adds various benchmarks.
+        * [A fork of bigcode-evaluation-harness](https://github.com/hitachi-nlp/bigcode-evaluation-harness), which enables faster inference with vllm.
+    * Evaluating LLMs on FLD itself using [the official lm-evlauation-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/fld) (recommended), or [our evaluation scripts](https://github.com/hitachi-nlp/FLD-fewshot-ICL-eval).
 * Generating FLD corpora by [our generator](https://github.com/hitachi-nlp/FLD-generator/).
-
-
-
 
 ## Publications
 
