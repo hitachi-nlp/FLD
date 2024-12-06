@@ -9,7 +9,7 @@
 
 ## What's Good?
 * 🚀 FLD samples **substantially enhances the reasoning capabilities of state-of-the-art LLMs**, such as LLaMA-3.1-70B; e.g., gains of up to 30 points on logical reasoning benchmarks, up to 10 points on math and coding benchmarks, and 5 points on the benchmark suite BBH.
-  - ![barplot](./images/barplot.PNG.PNG)
+  - ![barplot](./images/barplot.PNG)
 * 🎓 FLD samples are high in quality being generated based on **well-grounded design principles**, which integrate symbolic logic theory and previous empirical insights. The samples cover multi-step deduction with unknown facts, diverse reasoning rules, diverse linguistic expressions, and challenging distractors.
 * 👊 FLD, used as a benchmark, assesses pure reasoning isolated from knowledge. Indeed, even GPT-4 can solve only about half of the problems.
 
